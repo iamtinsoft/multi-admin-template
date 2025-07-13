@@ -20,7 +20,10 @@ const DashboardLayout: React.FC<{ children: React.ReactNode }> = ({ children }) 
     return (
         <Box minH="100vh" bg={isDark ? 'gray.900' : 'gray.50'}>
             <Flex>
-                <Sidebar isOpen={open} onClose={onClose} />
+                <Box>
+                    <Sidebar isOpen={open} onClose={onClose} />
+                </Box>
+
 
                 <Box flex={1} minH="100vh">
                     <TopNav onSidebarToggle={onOpen} />

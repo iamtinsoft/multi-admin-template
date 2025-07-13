@@ -18,7 +18,9 @@ import {
 } from '@chakra-ui/react';
 import { useTheme } from 'next-themes';
 import { ChevronDownIcon, ChevronUpIcon } from 'lucide-react';
-import DashboardLayout from '@/layouts/Dashboardlayout';
+import DashboardLayout from '@/layouts/DashboardLayout';
+import AppButton from '@/components/common/AppButton';
+
 
 // Types
 interface StatData {
@@ -180,6 +182,7 @@ const AdminDashboard: React.FC = () => {
                     <Text color="gray.500">
                         Here's what's happening with your business today.
                     </Text>
+                    <AppButton text="Hello There" bg="red" borderRadius={10} />
                 </Box>
 
                 {/* Stats Cards */}
