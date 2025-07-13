@@ -1,10 +1,11 @@
-import React from 'react'
+import IndexLayout from '@/layouts/IndexLayout'
+
 
 const LandingPage = () => {
     return (
-        <div>
-
-        </div>
+        <IndexLayout>
+            hsggdgdggdg
+        </IndexLayout>
     )
 }
 
