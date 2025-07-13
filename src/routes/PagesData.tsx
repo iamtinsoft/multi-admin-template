@@ -6,6 +6,7 @@
 import type { routerType } from "@/types/Router";
 import NotFound from "../pages/generic/NotFoundPage";
 import LandingPage from "@/pages/generic/LandingPage";
+import AdminDashboard from "@/pages/admin/AdminDashboardPage";
 
 
 // import AuthSelectorPage from "../pages/generic/AuthSelectorPage";
@@ -19,7 +20,10 @@ const PagesData: routerType[] = [
     path: "/",
     element: <LandingPage />,
   },
-
+  {
+    path: "/admin/dashboard",
+    element: <AdminDashboard />,
+  },
 
 ];
 
