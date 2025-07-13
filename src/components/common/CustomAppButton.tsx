@@ -2,7 +2,7 @@
 import { Button } from '@chakra-ui/react'
 
 
-const AppButton = ({ text, ...otherProps }: any) => {
+const CustomAppButton = ({ text, ...otherProps }: any) => {
     return (
         <Button {...otherProps}>
             {text}
@@ -10,4 +10,4 @@ const AppButton = ({ text, ...otherProps }: any) => {
     )
 }
 
-export default AppButton
+export default CustomAppButton
